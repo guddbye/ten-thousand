@@ -6,6 +6,8 @@ class GameLogic:
         pass
 
     @staticmethod
+    def get_random_number(self):
+        return random.randint(1,6)
     def calculate_score(roll):
         banked_score = tuple(roll)
         if banked_score == (1,):
