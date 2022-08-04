@@ -64,6 +64,7 @@ def play_turn(num):
         while True:
             print("Enter dice to keep, or (q)uit:")
             keep = input("> ")
+            # check if user quit
             if keep == "q":
                 return -1
 
