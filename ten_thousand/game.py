@@ -23,7 +23,7 @@ def start_game(num_rounds):
 
         round_count += 1
 
-    print(f"Thanks for playing. You earned {Banker.get_score()} points!")
+    print(f"Thanks for playing. You earned {Banker.get_score()} points")
 
 def do_round(round_count):
     start_round(round_count)
